@@ -7,7 +7,7 @@ chrome.alarms.onAlarm.addListener(function (alarm) {
     {
       type: "basic",
       iconUrl: "images/mylogo.png",
-      title: "OneTab Reminder",
+      title: "One Touch Reminder",
       message: "Hey there! You have hit your desired time.",
     },
     function (notificationID) {
