@@ -22,7 +22,7 @@ function createAlarm(defaultDuration) {
   });
 }
 
-//createAlarm()
+createAlarm()
 
 chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
   let defaultDuration = request.minutes * 60000;
